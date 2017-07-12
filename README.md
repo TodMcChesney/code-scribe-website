@@ -1,6 +1,6 @@
-# New Project Template
+# Code Scribe Website
 
-This is a base template for my website projects.
+This is the source code for my personal website.
 
 ## Getting Started
 
@@ -10,6 +10,8 @@ setup gulp.
 
 ### Requires
 - Node.js
+- Ruby
+- Sass >= 3.4
 - gulp-cli (installed globally)
 
 ### Install
@@ -23,9 +25,9 @@ This will install gulp locally with all the necessary modules.
 
 ```$ gulp```
 
-This task spins up a localhost server, and watches all files for changes
-. BrowserSync automatically opens the index.html page and refreshes
-the site after any changes are saved.
+This task spins up a localhost server, compiles the Sass to prefixed CSS
+and watches all files for changes. BrowserSync automatically opens the
+index.html page and refreshes the site after any changes are saved.
 
 ### Building Production Code
 
@@ -37,4 +39,4 @@ over to the clean dist folder. Links the js and css are updated to the
 .min versions in the html.
 
 ## License
-MIT
+MIT © Tod McChesney
