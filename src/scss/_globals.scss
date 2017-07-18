@@ -1,0 +1,23 @@
+.doc {
+    box-sizing: border-box;
+    line-height: 0.8;
+}
+
+* {
+    box-sizing: inherit;
+
+    ::before,
+    ::after {
+        box-sizing: inherit;
+    }
+}
+
+.page {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.page__container {
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto;
+}

@@ -105,10 +105,18 @@ rules:
                 - overflow
                 - box-sizing
                 - width
+                - min-width
+                - max-width
                 - height
+                - min-height
+                - max-height
                 - padding
                 - border
                 - border-radius
+                - border-top
+                - border-right
+                - border-bottom
+                - border-left
                 - margin
                 - background
                 - background-color

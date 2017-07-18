@@ -1,4 +1,47 @@
-/*! NewSite v1.0 | by Tod McChesney - CodeScribe.net */
+/*! CodeScribe.net v2.0 | by Tod McChesney - CodeScribe.net */
+.doc {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 0.8; }
+
+* {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+  * ::before,
+  * ::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit; }
+
+.page {
+  font-family: "Titillium Web", sans-serif; }
+
+.page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 940px;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  border-bottom: solid 3px #607d8b;
+  background-color: #1c1c1c; }
+
+.header__logo {
+  width: 37px;
+  height: 37px;
+  margin: 10px auto 10px 10px; }
+
+.header__logo--color-blue-gray {
+  fill: #607d8b; }
+
+.header__icon {
+  width: 37px;
+  height: 37px;
+  margin: 10px; }
+
+.header__icon--color-blue-gray {
+  fill: #607d8b; }
 
 
 

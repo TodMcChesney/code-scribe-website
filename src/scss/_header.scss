@@ -1,0 +1,25 @@
+.header {
+    width: 100%;
+    border-bottom: solid 3px $blue-gray;
+    background-color: $dark-gray;
+}
+
+.header__logo {
+    width: 37px;
+    height: 37px;
+    margin: 10px auto 10px 10px;
+}
+
+.header__logo--color-blue-gray {
+    fill: $blue-gray;
+}
+
+.header__icon {
+    width: 37px;
+    height: 37px;
+    margin: 10px;
+}
+
+.header__icon--color-blue-gray {
+    fill: $blue-gray;
+}
