@@ -24,20 +24,22 @@
 
 .header {
   width: 100%;
-  border-bottom: solid 3px #607d8b;
-  background-color: #1c1c1c; }
+  border-top: solid 4px #607d8b;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2); }
 
 .header__logo {
-  width: 37px;
-  height: 37px;
+  width: 36px;
+  height: 36px;
   margin: 10px auto 10px 10px; }
 
 .header__logo--color-blue-gray {
   fill: #607d8b; }
 
 .header__icon {
-  width: 37px;
-  height: 37px;
+  width: 36px;
+  height: 36px;
   margin: 10px; }
 
 .header__icon--color-blue-gray {
