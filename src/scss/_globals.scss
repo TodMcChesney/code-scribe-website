@@ -13,11 +13,6 @@
 }
 
 .page {
+    color: $dark-gray;
     font-family: "Titillium Web", sans-serif;
-}
-
-.page__container {
-    display: flex;
-    max-width: 940px;
-    margin: 0 auto;
 }
