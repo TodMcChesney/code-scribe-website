@@ -2,10 +2,9 @@
     width: 100%;
     border-top: solid 4px $blue-gray;
     background-color: $light-gray;
-    box-shadow: 0 0 1px 1px $shadow;
 }
 
-.header__container {
+.header__inner {
     display: flex;
     max-width: 940px;
     margin: 0 auto;

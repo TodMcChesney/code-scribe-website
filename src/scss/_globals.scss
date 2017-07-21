@@ -16,3 +16,11 @@
     color: $dark-gray;
     font-family: "Titillium Web", sans-serif;
 }
+
+.shadow {
+    box-shadow: 0 0 1px 1px $shadow;
+}
+
+.shadow__bottom {
+    box-shadow: 0 2px 1px -1px $shadow;
+}

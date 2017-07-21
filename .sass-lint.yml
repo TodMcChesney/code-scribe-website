@@ -111,6 +111,10 @@ rules:
                 - min-height
                 - max-height
                 - padding
+                - padding-top
+                - padding-right
+                - padding-bottom
+                - padding-left
                 - border
                 - border-radius
                 - border-top
@@ -118,8 +122,13 @@ rules:
                 - border-bottom
                 - border-left
                 - margin
+                - margin-top
+                - margin-right
+                - margin-bottom
+                - margin-left
                 - background
                 - background-color
+                - box-shadow
                 - color
                 - font-family
                 - font-size
