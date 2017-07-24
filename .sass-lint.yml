@@ -102,6 +102,7 @@ rules:
                 - bottom
                 - left
                 - display
+                - flex-wrap
                 - overflow
                 - box-sizing
                 - width
