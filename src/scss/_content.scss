@@ -79,15 +79,22 @@
 }
 
 .button {
+    display: block;
+    width: 116px;
+    height: 40px;
     padding: 10px;
     border: 1px solid $light-gray;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 10px auto;
     background-color: $light-gray;
-    color: $blue-gray;
-    cursor: pointer;
 
     &:hover {
         border-color: $med-gray;
     }
+}
+
+.button__text {
+    color: $blue-gray;
+    line-height: 1;
+    text-decoration: none;
 }

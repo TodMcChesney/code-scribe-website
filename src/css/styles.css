@@ -125,15 +125,21 @@
   border: 1px solid #7e7e7e; }
 
 .button {
+  display: block;
+  width: 116px;
+  height: 40px;
   padding: 10px;
   border: 1px solid #f1f1f1;
   border-radius: 5px;
-  margin: 10px 0;
-  background-color: #f1f1f1;
-  color: #607d8b;
-  cursor: pointer; }
+  margin: 10px auto;
+  background-color: #f1f1f1; }
   .button:hover {
     border-color: #7e7e7e; }
+
+.button__text {
+  color: #607d8b;
+  line-height: 1;
+  text-decoration: none; }
 
 .footer {
   width: 100%;
