@@ -24,3 +24,7 @@
 .shadow__bottom {
     box-shadow: 0 2px 1px -1px $shadow;
 }
+
+.shadow__top {
+    box-shadow: 0 -2px 1px -1px $shadow;
+}

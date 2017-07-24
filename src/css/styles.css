@@ -24,6 +24,10 @@
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2); }
 
+.shadow__top {
+  -webkit-box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2); }
+
 .header {
   width: 100%;
   border-top: solid 4px #607d8b;
@@ -130,6 +134,23 @@
   cursor: pointer; }
   .button:hover {
     border-color: #7e7e7e; }
+
+.footer {
+  width: 100%;
+  height: 100%;
+  border-bottom: solid 4px #607d8b;
+  background-color: #f1f1f1; }
+
+.footer__inner {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.footer__copyright {
+  padding: 10px;
+  margin: 0;
+  color: #607d8b;
+  text-align: center;
+  line-height: 1.2; }
 
 
 
