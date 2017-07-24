@@ -75,5 +75,19 @@
 
 .project__image {
     width: 100%;
-    border: 1px solid $dark-gray;
+    border: 1px solid $med-gray;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: $light-gray;
+    color: $blue-gray;
+    cursor: pointer;
+
+    &:hover {
+        border-color: $med-gray;
+    }
 }

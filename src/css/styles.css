@@ -118,7 +118,18 @@
 
 .project__image {
   width: 100%;
-  border: 1px solid #1c1c1c; }
+  border: 1px solid #7e7e7e; }
+
+.button {
+  padding: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  color: #607d8b;
+  cursor: pointer; }
+  .button:hover {
+    border-color: #7e7e7e; }
 
 
 
