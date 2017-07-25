@@ -61,12 +61,13 @@
 .portfolio__heading {
     width: 100%;
     padding-bottom: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: $blue-gray;
 }
 
 .project {
-    padding: 10px;
+    padding: 0 10px;
+    margin-bottom: -20px;
 
     @media screen and (min-width: 641px) {
         width: 50%;
@@ -78,6 +79,13 @@
     border: 1px solid $med-gray;
 }
 
+.project__buttons {
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
 .button {
     display: block;
     width: 116px;
@@ -85,7 +93,7 @@
     padding: 10px;
     border: 1px solid $light-gray;
     border-radius: 5px;
-    margin: 10px auto;
+    margin: 0 10px;
     background-color: $light-gray;
 
     &:hover {

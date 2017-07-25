@@ -111,11 +111,12 @@
 .portfolio__heading {
   width: 100%;
   padding-bottom: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #607d8b; }
 
 .project {
-  padding: 10px; }
+  padding: 0 10px;
+  margin-bottom: -20px; }
   @media screen and (min-width: 641px) {
     .project {
       width: 50%; } }
@@ -124,6 +125,16 @@
   width: 100%;
   border: 1px solid #7e7e7e; }
 
+.project__buttons {
+  position: relative;
+  top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .button {
   display: block;
   width: 116px;
@@ -131,7 +142,7 @@
   padding: 10px;
   border: 1px solid #f1f1f1;
   border-radius: 5px;
-  margin: 10px auto;
+  margin: 0 10px;
   background-color: #f1f1f1; }
   .button:hover {
     border-color: #7e7e7e; }
