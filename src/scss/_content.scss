@@ -107,3 +107,23 @@
     line-height: 1;
     text-decoration: none;
 }
+
+.button--center {
+    margin: 0 auto;
+}
+
+.button--white {
+    background-color: #fff;
+}
+
+.lets-talk {
+    padding: 20px 20px 40px;
+    background-color: $blue-gray;
+    text-align: center;
+}
+
+.lets-talk__heading {
+    margin: 20px 0;
+    color: #fff;
+    line-height: 1.2;
+}
