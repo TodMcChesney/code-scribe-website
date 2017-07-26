@@ -1,7 +1,8 @@
 .header {
+    position: relative;
+    z-index: 1;
     width: 100%;
     border-top: solid 4px $blue-gray;
-    background-color: $light-gray;
 }
 
 .header__inner {
