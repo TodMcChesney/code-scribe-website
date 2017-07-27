@@ -92,28 +92,33 @@
     width: 116px;
     height: 40px;
     padding: 10px;
-    border: 1px solid $light-gray;
     border-radius: 5px;
     margin: 0 10px;
-    background-color: $light-gray;
-
-    &:hover {
-        border-color: $med-gray;
-    }
 }
 
 .button__text {
-    color: $blue-gray;
     line-height: 1;
     text-decoration: none;
 }
 
-.button--center {
-    margin: 0 auto;
+.button--color-blue-gray {
+    border: 1px solid $blue-gray;
+    background-color: $blue-gray;
+    color: #fff;
+
+    &:hover {
+        border-color: #fff;
+    }
 }
 
-.button--white {
+.button--color-white {
+    border: 1px solid #fff;
     background-color: #fff;
+    color: $blue-gray;
+
+    &:hover {
+        border-color: $blue-gray;
+    }
 }
 
 .lets-talk {
@@ -126,4 +131,8 @@
     margin: 20px 0;
     color: #fff;
     line-height: 1.2;
+}
+
+.lets-talk__button {
+    margin: 0 auto;
 }
