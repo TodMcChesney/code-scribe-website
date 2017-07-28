@@ -2,7 +2,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    border-top: solid 4px $blue-gray;
+    border-top: solid 4px $dark-border-color;
 }
 
 .header__inner {
@@ -18,7 +18,7 @@
 }
 
 .logo--color-blue-gray {
-    fill: $blue-gray;
+    fill: $brand-color;
 }
 
 .icon {
@@ -28,5 +28,5 @@
 }
 
 .icon--color-blue-gray {
-    fill: $blue-gray;
+    fill: $brand-color;
 }

@@ -1,16 +1,34 @@
 // ==========================================================================
-// Colors
+// Base colors (not to be used directly in styles)
 // ==========================================================================
 
-// Light Gray for header/footer background and button background
+$white: #fff;
 $light-gray: #f1f1f1;
+$medium-gray: #7e7e7e;
+$transparent-black: rgba(0, 0, 0, 0.2);
 
-// Medium Gray for image border, button hover border, and text
-$med-gray: #7e7e7e;
-
-// Opaque black for shadows
-$shadow: rgba(0, 0, 0, 0.2);
-
-// Blue/Gray accent color for header top border, logo, icons, headings and
-// button text
+// Primary brand color
 $blue-gray: #607d8b;
+
+
+// ==========================================================================
+// Color variables for use in styles
+// ==========================================================================
+
+$brand-color: $blue-gray;
+
+// Text
+$default-text-color: $medium-gray;
+$light-text-color: $white;
+$dark-text-color: $brand-color;
+
+// Backgrounds
+$light-background-color: $white;
+$medium-background-color: $light-gray;
+$dark-background-color: $brand-color;
+
+// Borders
+$light-border-color: $light-gray;
+$dark-border-color: $brand-color;
+
+$shadow: $transparent-black;
