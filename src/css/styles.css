@@ -11,11 +11,6 @@
     -webkit-box-sizing: inherit;
     box-sizing: inherit; }
 
-.page {
-  background-color: #f1f1f1;
-  color: #7e7e7e;
-  font-family: "Titillium Web", sans-serif; }
-
 .shadow {
   -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2); }
@@ -28,18 +23,35 @@
   -webkit-box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2); }
 
-.header {
+.page {
+  background-color: #f1f1f1;
+  color: #7e7e7e;
+  font-family: "Titillium Web", sans-serif; }
+
+.page__inner {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.page__inner--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.page__inner--padded {
+  padding: 10px; }
+
+.page__header {
   position: relative;
   z-index: 1;
   width: 100%;
   border-top: solid 4px #607d8b; }
 
-.header__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 940px;
-  margin: 0 auto; }
+.page__content {
+  width: 100%;
+  background-color: #fff; }
+
+.page__footer {
+  width: 100%; }
 
 .logo {
   width: 36px;
@@ -56,15 +68,6 @@
 
 .icon--dark-theme {
   fill: #607d8b; }
-
-.content {
-  width: 100%;
-  background-color: #fff; }
-
-.content__inner {
-  max-width: 940px;
-  padding: 10px;
-  margin: 0 auto; }
 
 .banner {
   width: 100%; }
@@ -176,15 +179,7 @@
 .lets-talk__button {
   margin: 0 auto; }
 
-.footer {
-  width: 100%;
-  height: 100%; }
-
-.footer__inner {
-  max-width: 940px;
-  margin: 0 auto; }
-
-.footer__copyright {
+.copyright {
   padding: 20px;
   margin: 0;
   color: #607d8b;
