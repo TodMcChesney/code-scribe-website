@@ -1,0 +1,18 @@
+.profile-data {
+    margin-top: -60px;
+    text-align: center;
+}
+
+.profile-data__heading {
+    max-width: 500px;
+    padding-bottom: 1.18px;
+    margin: 0 auto;
+    color: $dark-text-color;
+}
+
+.profile-data__description {
+    max-width: 500px;
+    padding: 4px 10px;
+    margin: 0 auto;
+    line-height: 1.2;
+}

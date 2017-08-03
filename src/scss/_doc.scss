@@ -1,0 +1,13 @@
+.doc {
+    box-sizing: border-box;
+    line-height: 0.8;
+}
+
+* {
+    box-sizing: inherit;
+
+    &::before,
+    &::after {
+        box-sizing: inherit;
+    }
+}

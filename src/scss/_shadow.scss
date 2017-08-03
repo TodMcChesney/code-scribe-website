@@ -1,17 +1,3 @@
-.doc {
-    box-sizing: border-box;
-    line-height: 0.8;
-}
-
-* {
-    box-sizing: inherit;
-
-    &::before,
-    &::after {
-        box-sizing: inherit;
-    }
-}
-
 .shadow {
     box-shadow: 0 0 1px 1px $shadow;
 }
