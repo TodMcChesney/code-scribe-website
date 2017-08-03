@@ -145,24 +145,22 @@
   height: 40px;
   padding: 10px;
   border-radius: 5px;
-  margin: 0 10px; }
-
-.button__text {
+  margin: 0 10px;
   line-height: 1;
   text-decoration: none; }
 
-.button--color-blue-gray {
+.button--dark-theme {
   border: 1px solid #607d8b;
   background-color: #607d8b;
   color: #fff; }
-  .button--color-blue-gray:hover {
+  .button--dark-theme:hover {
     border-color: #f1f1f1; }
 
-.button--color-white {
+.button--light-theme {
   border: 1px solid #f1f1f1;
   background-color: #fff;
   color: #607d8b; }
-  .button--color-white:hover {
+  .button--light-theme:hover {
     border-color: #607d8b; }
 
 .lets-talk {
