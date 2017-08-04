@@ -1,8 +1,8 @@
 /*! CodeScribe.net v2.0 | by Tod McChesney - CodeScribe.net */
 .doc {
+  line-height: 0.8;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  line-height: 0.8; }
+  box-sizing: border-box; }
 
 * {
   -webkit-box-sizing: inherit;
@@ -17,8 +17,8 @@
   font-family: "Titillium Web", sans-serif; }
 
 .page__inner {
-  max-width: 940px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 940px; }
 
 .page__inner--flex {
   display: -webkit-box;
@@ -31,28 +31,28 @@
 .page__header {
   position: relative;
   z-index: 1;
-  width: 100%;
-  border-top: solid 4px #607d8b; }
+  border-top: solid 4px #607d8b;
+  width: 100%; }
 
 .page__content {
-  width: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  width: 100%; }
 
 .page__footer {
   width: 100%; }
 
 .logo {
+  margin: 10px auto 10px 10px;
   width: 36px;
-  height: 36px;
-  margin: 10px auto 10px 10px; }
+  height: 36px; }
 
 .logo--dark-theme {
   fill: #607d8b; }
 
 .icon {
+  margin: 10px;
   width: 36px;
-  height: 36px;
-  margin: 10px; }
+  height: 36px; }
 
 .icon--dark-theme {
   fill: #607d8b; }
@@ -67,24 +67,24 @@
   position: relative;
   top: -67px;
   left: 50%;
+  margin-left: -67px;
   border: 3px solid #f1f1f1;
-  border-radius: 50%;
-  margin-left: -67px; }
+  border-radius: 50%; }
 
 .profile-data {
   margin-top: -60px;
   text-align: center; }
 
 .profile-data__heading {
-  max-width: 500px;
-  padding-bottom: 1.18px;
   margin: 0 auto;
+  padding-bottom: 1.18px;
+  max-width: 500px;
   color: #607d8b; }
 
 .profile-data__description {
-  max-width: 500px;
-  padding: 4px 10px;
   margin: 0 auto;
+  padding: 4px 10px;
+  max-width: 500px;
   line-height: 1.2; }
 
 .portfolio {
@@ -99,28 +99,28 @@
       margin-top: 10px; } }
 
 .portfolio__heading {
-  width: 100%;
-  padding-bottom: 20px;
   margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   color: #607d8b; }
 
 .project {
-  padding: 0 10px;
-  margin-bottom: -20px; }
+  margin-bottom: -20px;
+  padding: 0 10px; }
   @media screen and (min-width: 641px) {
     .project {
       width: 50%; } }
 
 .project__image {
-  width: 100%;
-  border: 1px solid #607d8b; }
+  border: 1px solid #607d8b;
+  width: 100%; }
 
 .project__links {
-  position: relative;
-  top: -60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  top: -60px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -131,31 +131,31 @@
   margin: 0 10px; }
 
 .lets-talk {
-  padding: 20px 20px 40px;
   background-color: #607d8b;
+  padding: 20px 20px 40px;
   text-align: center; }
 
 .lets-talk__heading {
   margin: 20px 0;
-  color: #fff;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #fff; }
 
 .lets-talk__button {
   margin: 0 auto; }
 
 .copyright {
-  padding: 20px;
   margin: 0;
-  color: #607d8b;
+  padding: 20px;
   text-align: center;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #607d8b; }
 
 .button {
   display: block;
-  padding: 10px;
   border-radius: 5px;
-  line-height: 1;
-  text-decoration: none; }
+  padding: 10px;
+  text-decoration: none;
+  line-height: 1; }
 
 .button--fixed-size {
   width: 116px;
