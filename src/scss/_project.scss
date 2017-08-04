@@ -1,6 +1,6 @@
 .project {
-    padding: 0 10px;
     margin-bottom: -20px;
+    padding: 0 10px;
 
     @media screen and (min-width: 641px) {
         width: 50%;
@@ -8,14 +8,14 @@
 }
 
 .project__image {
-    width: 100%;
     border: 1px solid $dark-border-color;
+    width: 100%;
 }
 
 .project__links {
+    display: flex;
     position: relative;
     top: -60px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }

@@ -5,8 +5,8 @@
 }
 
 .page__inner {
-    max-width: 940px;
     margin: 0 auto;
+    max-width: 940px;
 }
 
 .page__inner--flex {
@@ -20,13 +20,13 @@
 .page__header {
     position: relative;
     z-index: 1;
-    width: 100%;
     border-top: solid 4px $dark-border-color;
+    width: 100%;
 }
 
 .page__content {
-    width: 100%;
     background-color: $light-background-color;
+    width: 100%;
 }
 
 .page__footer {

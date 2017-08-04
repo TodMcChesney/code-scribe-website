@@ -94,47 +94,7 @@ rules:
     property-sort-order:
         - 1
         -
-            order:
-                - position
-                - z-index
-                - top
-                - right
-                - bottom
-                - left
-                - display
-                - flex-wrap
-                - overflow
-                - box-sizing
-                - width
-                - min-width
-                - max-width
-                - height
-                - min-height
-                - max-height
-                - padding
-                - padding-top
-                - padding-right
-                - padding-bottom
-                - padding-left
-                - border
-                - border-radius
-                - border-top
-                - border-right
-                - border-bottom
-                - border-left
-                - margin
-                - margin-top
-                - margin-right
-                - margin-bottom
-                - margin-left
-                - background
-                - background-color
-                - box-shadow
-                - color
-                - font-family
-                - font-size
-                - font-weight
-                - text-align
+            order: concentric
     pseudo-element: 1
     quotes:
         - 1
