@@ -1,0 +1,38 @@
+.modal {
+    // display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: $modal-background-solid;
+    background-color: $modal-background-transparent;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.modal__content {
+    margin: 4px auto 0;
+    border: 1px solid $dark-border-color;
+    background-color: $light-background-color;
+    padding: 20px;
+    max-width: 500px;
+
+    @media screen and (min-height: 800px) {
+        margin: 150px auto 0;
+    }
+}
+
+.modal__close-button {
+    float: right;
+    color: $brand-color;
+    font-size: 28px;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        text-decoration: none;
+        color: $default-text-color;
+    }
+}

@@ -5,7 +5,9 @@
 $white: #fff;
 $light-gray: #f1f1f1;
 $medium-gray: #7e7e7e;
-$transparent-black: rgba(0, 0, 0, 0.2);
+$black: #000;
+$transparent-black-20: rgba(0, 0, 0, 0.2);
+$transparent-black-50: rgba(0, 0, 0, 0.5);
 
 // Primary brand color
 $blue-gray: #607d8b;
@@ -26,9 +28,10 @@ $dark-text-color: $brand-color;
 $light-background-color: $white;
 $medium-background-color: $light-gray;
 $dark-background-color: $brand-color;
+$shadow: $transparent-black-20;
+$modal-background-solid: $black;
+$modal-background-transparent: $transparent-black-50;
 
 // Borders
 $light-border-color: $light-gray;
 $dark-border-color: $brand-color;
-
-$shadow: $transparent-black;
