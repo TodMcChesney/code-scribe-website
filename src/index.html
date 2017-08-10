@@ -27,39 +27,6 @@
 
     <body class="page">
 
-        <!-- Modal contact form -->
-        <div class="modal" id="js-modal">
-
-            <div class="modal__content clearfix">
-                <span class="modal__close-button js-close-modal">×</span>
-
-                <!-- Wufoo embed code -->
-                <div id="wufoo-z9ta7301we7oai">
-                    Fill out my <a href="https://todmcchesney.wufoo.com/forms/z9ta7301we7oai">contact form</a>.
-                </div>
-                <script type="text/javascript">
-                    var z9ta7301we7oai;(function(d, t) {
-                        var s = d.createElement(t), options = {
-                        'userName':'todmcchesney',
-                        'formHash':'z9ta7301we7oai',
-                        'autoResize':true,
-                        'height':'520',
-                        'async':true,
-                        'host':'wufoo.com',
-                        'header':'show',
-                        'ssl':true};
-                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                        s.onload = s.onreadystatechange = function() {
-                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                        try { z9ta7301we7oai = new WufooForm();z9ta7301we7oai.initialize(options);z9ta7301we7oai.display(); } catch (e) {}};
-                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                    })(document, 'script');
-                </script>
-
-            </div>
-
-        </div>
-
         <header class="page__header shadow__bottom">
 
             <div class="page__inner page__inner--flex">
@@ -232,6 +199,39 @@
             </div>
 
         </footer>
+
+        <!-- Modal contact form -->
+        <div class="modal" id="js-modal">
+
+            <div class="modal__content clearfix">
+                <a class="modal__close-button js-close-modal" href="#">×</a>
+
+                <!-- Wufoo embed code -->
+                <div id="wufoo-z9ta7301we7oai">
+                    Fill out my <a href="https://todmcchesney.wufoo.com/forms/z9ta7301we7oai">contact form</a>.
+                </div>
+                <script type="text/javascript">
+                    var z9ta7301we7oai;(function(d, t) {
+                        var s = d.createElement(t), options = {
+                        'userName':'todmcchesney',
+                        'formHash':'z9ta7301we7oai',
+                        'autoResize':true,
+                        'height':'520',
+                        'async':true,
+                        'host':'wufoo.com',
+                        'header':'show',
+                        'ssl':true};
+                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                        s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try { z9ta7301we7oai = new WufooForm();z9ta7301we7oai.initialize(options);z9ta7301we7oai.display(); } catch (e) {}};
+                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');
+                </script>
+
+            </div>
+
+        </div>
 
         <!-- build:js js/scripts.min.js -->
         <script src="js/scripts.js"></script>
