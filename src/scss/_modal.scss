@@ -1,5 +1,5 @@
 .modal {
-    // display: none;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,20 +19,30 @@
     max-width: 500px;
 
     @media screen and (min-height: 800px) {
-        margin: 150px auto 0;
+        margin: 200px auto 0;
+    }
+
+    iframe {
+        max-height: 400px;
     }
 }
 
 .modal__close-button {
     float: right;
+    text-decoration: none;
     color: $brand-color;
     font-size: 28px;
     font-weight: bold;
 
     &:hover,
     &:focus {
-        cursor: pointer;
         text-decoration: none;
         color: $default-text-color;
     }
+}
+
+.modal__heading {
+    margin-top: 3px;
+    padding-bottom: 20px;
+    color: $brand-color;
 }
