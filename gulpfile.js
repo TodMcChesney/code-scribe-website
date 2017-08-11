@@ -70,7 +70,7 @@ gulp.task('clean:dist', () =>
 gulp.task('minify:js', ['clean:dist'], () =>
     gulp.src('src/js/scripts.js')
     .pipe(babel({
-        presets: ['es2015']
+        presets: ['es2015-nostrict']
     }))
     .pipe(concat('scripts.js'))
     .pipe(babili({
