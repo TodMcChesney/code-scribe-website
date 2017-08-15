@@ -11,11 +11,6 @@
     -webkit-box-sizing: inherit;
     box-sizing: inherit; }
 
-.clearfix::after {
-  display: table;
-  clear: both;
-  content: ""; }
-
 .page {
   background-color: #f1f1f1;
   color: #7e7e7e;
@@ -248,6 +243,11 @@
 .shadow__top {
   -webkit-box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 -2px 1px -1px rgba(0, 0, 0, 0.2); }
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: ""; }
 
 
 
