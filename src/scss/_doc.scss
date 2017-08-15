@@ -11,11 +11,3 @@
         box-sizing: inherit;
     }
 }
-
-.clearfix {
-    &::after {
-        display: table;
-        clear: both;
-        content: "";
-    }
-}
