@@ -7,19 +7,19 @@
 
     openModalButtons.forEach(button => {
         button.addEventListener('click', event => {
-            modal.style.display = "block";
+            modal.style.display = 'block';
             event.preventDefault();
         }, false);
     });
 
     closeModalButton.addEventListener('click', event => {
-        modal.style.display = "none";
+        modal.style.display = 'none';
         event.preventDefault();
     }, false);
 
     window.onclick = event => {
         if (event.target === modal) {
-            modal.style.display = "none";
+            modal.style.display = 'none';
         }
     };
 })();
