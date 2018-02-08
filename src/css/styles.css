@@ -81,7 +81,7 @@
     .modal__content {
       margin: 200px auto 0; } }
   .modal__content iframe {
-    max-height: 400px; }
+    max-height: 404px; }
 
 .modal__close-button {
   float: right;
