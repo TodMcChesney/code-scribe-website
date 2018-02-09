@@ -144,6 +144,27 @@
   max-width: 500px;
   line-height: 1.2; }
 
+.error-404 {
+  text-align: center; }
+
+.error-404__heading {
+  margin: 0 auto;
+  padding-bottom: 1.18px;
+  max-width: 500px;
+  color: #607d8b; }
+
+.error-404__description {
+  margin: 0 auto;
+  padding: 4px 10px;
+  max-width: 500px;
+  line-height: 1.2; }
+
+.error-404__link {
+  color: #607d8b; }
+  .error-404__link:hover {
+    text-decoration: none;
+    font-weight: bold; }
+
 .portfolio {
   display: -webkit-box;
   display: -ms-flexbox;
