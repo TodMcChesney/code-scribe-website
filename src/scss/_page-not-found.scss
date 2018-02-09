@@ -1,22 +1,22 @@
-.error-404 {
+.page-not-found {
     text-align: center;
 }
 
-.error-404__heading {
+.page-not-found__heading {
     margin: 0 auto;
     padding-bottom: 1.18px;
     max-width: 500px;
     color: $dark-text-color;
 }
 
-.error-404__description {
+.page-not-found__description {
     margin: 0 auto;
     padding: 4px 10px;
     max-width: 500px;
     line-height: 1.2;
 }
 
-.error-404__link {
+.page-not-found__link {
     color: $dark-text-color;
 
     &:hover {
