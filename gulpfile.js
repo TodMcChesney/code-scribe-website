@@ -101,7 +101,8 @@ gulp.task('minify:html', ['clean:dist'], () =>
     gulp.src('src/*.html')
     .pipe(processhtml())
     .pipe(htmlmin({
-        collapseWhitespace: true
+        collapseWhitespace: true,
+        removeComments: true
     }))
     .pipe(gulp.dest('dist'))
 );
