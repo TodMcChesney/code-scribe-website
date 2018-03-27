@@ -1,0 +1,46 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Wufoo Contact Form Custom CSS
+ Author : Tod McChesney
+ URL : https://codescribe.net
+
+ Last Updated : 02/08/2018
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+.wufoo {
+    font-family: "Titillium Web";
+}
+
+/* Submit Button */
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input.btTxt {
+    border: 1px solid #607d8b;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #607d8b;
+    padding: 10px;
+    width: 116px;
+    height: 40px;
+    line-height: 1;
+    font-family: inherit;
+    font-size: 120%;
+    color: #fff;
+}
+
+input.btTxt:hover {
+    border-color: #f1f1f1;
+}
+
+form li.buttons input {
+    font-size: 120%;
+}
