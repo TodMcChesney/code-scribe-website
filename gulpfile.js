@@ -9,6 +9,7 @@ const browserSync = require('browser-sync');
 const rm = require('gulp-rm');
 const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
+const inlinesource = require('gulp-inline-source');
 const processhtml = require('gulp-processhtml');
 const htmlmin = require('gulp-htmlmin');
 const babel = require('gulp-babel');
@@ -96,6 +97,7 @@ gulp.task('minify:css', ['clean:dist'], () =>
 // minify:html
 gulp.task('minify:html', ['clean:dist'], () =>
     gulp.src('src/*.html')
+    .pipe(inlinesource())
     .pipe(processhtml())
     .pipe(htmlmin({
         collapseWhitespace: true,
