@@ -85,16 +85,6 @@ gulp.task('minify:js', ['clean:dist'], () =>
     .pipe(gulp.dest('dist/js'))
 );
 
-// concat:css
-gulp.task('concat:css', () =>
-    gulp.src(['src/css/normalize.css', 'src/css/styles.css'])
-    .pipe(concat('styles.css'))
-    .pipe(rename({
-        suffix: '.min'
-    }))
-    .pipe(gulp.dest('src/css'))
-);
-
 // minify:css
 gulp.task('minify:css', ['clean:dist'], () =>
     gulp.src('src/css/wufoo-custom.css')
@@ -125,4 +115,4 @@ gulp.task('copy', ['clean:dist'], () =>
 );
 
 // build
-gulp.task('build', ['clean:dist', 'concat:css', 'minify:js', 'minify:css', 'minify:html', 'copy']);
+gulp.task('build', ['clean:dist', 'minify:js', 'minify:css', 'minify:html', 'copy']);
