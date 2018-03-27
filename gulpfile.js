@@ -11,7 +11,6 @@ const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
 const processhtml = require('gulp-processhtml');
 const htmlmin = require('gulp-htmlmin');
-const concat = require('gulp-concat');
 const babel = require('gulp-babel');
 const babili = require('gulp-babili');
 
@@ -73,7 +72,6 @@ gulp.task('minify:js', ['clean:dist'], () =>
     .pipe(babel({
         presets: ['es2015-nostrict']
     }))
-    .pipe(concat('scripts.js'))
     .pipe(babili({
         mangle: {
             keepClassName: true
