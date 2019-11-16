@@ -16,5 +16,7 @@
     "url": "https://github.com/TodMcChesney/code-scribe-website/issues"
   },
   "homepage": "https://github.com/TodMcChesney/code-scribe-website#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
