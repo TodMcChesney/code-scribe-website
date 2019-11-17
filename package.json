@@ -18,6 +18,7 @@
   "homepage": "https://github.com/TodMcChesney/code-scribe-website#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.1",
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-dart-sass": "^0.9.1",
     "gulp-postcss": "^8.0.0",
