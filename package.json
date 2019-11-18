@@ -17,11 +17,22 @@
   },
   "homepage": "https://github.com/TodMcChesney/code-scribe-website#readme",
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
     "autoprefixer": "^9.7.1",
     "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.1",
     "gulp-dart-sass": "^0.9.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-inline-source": "^4.0.0",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-rm": "^2.0.0",
     "gulp-sourcemaps": "^2.6.5"
   }
 }
