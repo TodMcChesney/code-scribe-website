@@ -15,7 +15,6 @@ const cssnano = require('cssnano');
 const inlinesource = require('gulp-inline-source');
 const htmlreplace = require('gulp-html-replace');
 const htmlmin = require('gulp-htmlmin');
-const imagemin = require('gulp-imagemin');
 
 
 // Running dev tasks from the CLI:
@@ -116,19 +115,9 @@ function minifyHTML(done) {
     done();
 }
 
-// Minify images
-function minifyImages(done) {
-    src('src/img/**/*')
-    .pipe(imagemin({
-        verbose: true
-    }))
-    .pipe(dest('dist/img'));
-    done();
-}
-
 // Copy all remaining files to Dist folder
 function copy(done) {
-    src('src/*.!(html)', {
+    src(['src/img/**/*.*', 'src/*.!(html)'], {
         base: 'src'
     })
     .pipe(dest('dist'));
@@ -136,4 +125,4 @@ function copy(done) {
 }
 
 // Export the build task and assign tasks to be run in the correct sequence
-exports.build = series(cleanDist, parallel(minifyJS, minifyCSS, minifyHTML, minifyImages, copy));
+exports.build = series(cleanDist, parallel(minifyJS, minifyCSS, minifyHTML, copy));
