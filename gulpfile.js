@@ -104,7 +104,8 @@ function minifyHTML(done) {
     src('src/*.html')
     .pipe(inlinesource())
     .pipe(htmlreplace({
-        'js': 'js/scripts.min.js'
+        'js': 'js/scripts.min.js',
+        'absolutejs': 'https://codescribe.net/js/scripts.min.js'
     }))
     .pipe(htmlmin({
         collapseWhitespace: true,
