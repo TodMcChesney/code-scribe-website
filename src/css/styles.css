@@ -527,7 +527,7 @@ template {
 
 .page-not-found__description {
   margin: 0 auto;
-  padding: 4px 10px;
+  padding: 4px 10px 68px;
   max-width: 500px;
   line-height: 1.2;
 }
