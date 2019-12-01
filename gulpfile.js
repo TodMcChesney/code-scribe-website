@@ -12,7 +12,6 @@ const babel = require('gulp-babel');
 const minify = require('gulp-babel-minify');
 const rename = require('gulp-rename');
 const cssnano = require('cssnano');
-const inlinesource = require('gulp-inline-source');
 const htmlreplace = require('gulp-html-replace');
 const htmlmin = require('gulp-htmlmin');
 
@@ -24,7 +23,10 @@ const htmlmin = require('gulp-htmlmin');
 function compileSass() {
     return src('src/scss/**/*.scss')
         .pipe(sourcemaps.init())
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({
+            indentWidth: 4,
+            linefeed: 'crlf'
+        }).on('error', sass.logError))
         .pipe(postcss([autoprefixer()]))
         .pipe(sourcemaps.write('./maps'))
         .pipe(dest('src/css'));
@@ -88,8 +90,8 @@ function minifyJS(done) {
     done();
 }
 
-// Minify CSS
-function minifyCSS(done) {
+// Minify Wufoo CSS
+function minifyWufooCSS(done) {
     src('src/css/wufoo-custom.css')
     .pipe(postcss([cssnano()]))
     .pipe(rename({
@@ -102,14 +104,18 @@ function minifyCSS(done) {
 // Minify HTML
 function minifyHTML(done) {
     src('src/*.html')
-    .pipe(inlinesource())
     .pipe(htmlreplace({
-        'js': 'js/scripts.min.js',
-        'absolutejs': 'https://codescribe.net/js/scripts.min.js'
+        cssInline: {
+            src: src(['src/css/normalize.css', 'src/css/styles.css']),
+            tpl: '<style>%s</style>'
+        },
+        js: 'js/scripts.min.js',
+        absolutejs: 'https://codescribe.net/js/scripts.min.js'
     }))
     .pipe(htmlmin({
         collapseWhitespace: true,
         removeComments: true,
+        minifyCSS: true,
         minifyJS: true
     }))
     .pipe(dest('dist'));
@@ -126,4 +132,4 @@ function copy(done) {
 }
 
 // Export the build task and assign tasks to be run in the correct sequence
-exports.build = series(cleanDist, parallel(minifyJS, minifyCSS, minifyHTML, copy));
+exports.build = series(cleanDist, parallel(minifyJS, minifyWufooCSS, minifyHTML, copy));
