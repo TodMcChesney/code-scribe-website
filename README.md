@@ -10,8 +10,6 @@ setup gulp.
 
 ### Requires
 - Node.js
-- Ruby
-- Sass >= 3.4
 - gulp-cli (installed globally)
 
 ### Install
@@ -35,8 +33,8 @@ index.html page and refreshes the site after any changes are saved.
 
 This task cleans the dist folder first by deleting any old contents.
 Then the js, css, and html files are minified and all files are copied
-over to the clean dist folder. Links the js and css are updated to the
-.min versions in the html.
+over to the clean dist folder. The css is inlined into the html and the link
+to the js is updated to the .min version.
 
 ## License
 MIT © Tod McChesney
